@@ -40,6 +40,8 @@ call plug#end()
 
 nnoremap <SPACE> <Nop>
 let mapleader=" "
+nnoremap <leader><CR> :so ~/.config/nvim/init.vim<CR> 
+
 
 " search only files in git ptoject folders excludes gitignore)
 nnoremap <C-p> :GFiles<Cr>
